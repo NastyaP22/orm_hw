@@ -8,8 +8,6 @@ from models import create_tables, Publisher, Book, Shop, Stock, Sale
 
 load_dotenv()
 
-# conn = psycopg2.connect(database='bookshop', user='postgres', password='avebilly1906')
-
 user = os.getenv('user')
 password = os.getenv('password')
 database_name = os.getenv('database_name')
